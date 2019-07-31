@@ -39,7 +39,7 @@
     </LinearLayout>
 
 
-    <com.hld.recordvideo.RecordButtonView
+    <com.hld.recordlibrary.RecordButtonView
         android:id="@+id/recordVideo"
         android:layout_width="@dimen/endBigCirSize"
         android:layout_height="@dimen/endBigCirSize"
