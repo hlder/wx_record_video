@@ -2,10 +2,25 @@
 模仿微信录制小视频<br/>
 使用系统MediaRecorder进行录制
 # 使用方法:
-## 引入
-<pre>
 
+## 引入
+1.加入maven
+<pre>
+maven { url 'https://jitpack.io' }
 </pre>
+2.引入gradle
+<pre>
+implementation 'com.github.yuanfen7650:wx_record_video:1.0'//视频录制
+</pre>
+## 加入权限
+<pre>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</pre>
+
 ## 启动
 <pre>
 Intent intent=new Intent(this,RecordVideoActivity.class);
