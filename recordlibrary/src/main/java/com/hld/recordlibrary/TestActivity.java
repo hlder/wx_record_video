@@ -1,10 +1,8 @@
-package com.hld.recordvideo;
+package com.hld.recordlibrary;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 
 //import org.bytedeco.javacpp.avcodec;
@@ -13,8 +11,6 @@ import android.widget.Button;
 //import org.bytedeco.javacv.FrameRecorder;
 //import org.bytedeco.javacv.OpenCVFrameConverter;
 //import static org.bytedeco.javacpp.opencv_imgcodecs.cvLoadImage;
-
-import java.io.File;
 
 
 public class TestActivity extends AppCompatActivity {

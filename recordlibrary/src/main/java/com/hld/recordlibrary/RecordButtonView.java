@@ -1,4 +1,4 @@
-package com.hld.recordvideo;
+package com.hld.recordlibrary;
 
 import android.content.Context;
 import android.content.res.Resources;

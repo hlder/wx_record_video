@@ -1,4 +1,4 @@
-package com.hld.recordvideo;
+package com.hld.recordlibrary;
 
 import android.Manifest;
 import android.content.Intent;
@@ -6,11 +6,11 @@ import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.media.MediaRecorder;
 import android.os.Build;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
@@ -60,7 +60,7 @@ public class RecordVideoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_record_video);
 
         outFilePath=getIntent().getStringExtra("outFilePath");
 

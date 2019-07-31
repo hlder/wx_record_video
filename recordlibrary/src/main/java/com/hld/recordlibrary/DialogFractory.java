@@ -1,4 +1,4 @@
-package com.hld.recordvideo;
+package com.hld.recordlibrary;
 
 import android.app.AlertDialog;
 import android.content.Context;

@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="minCirSize">45dp</dimen>
-    <dimen name="bigCirSize">60dp</dimen>
-
-
-    <dimen name="endMinCirSize">30dp</dimen>
-    <dimen name="endBigCirSize">100dp</dimen>
-
 </resources>

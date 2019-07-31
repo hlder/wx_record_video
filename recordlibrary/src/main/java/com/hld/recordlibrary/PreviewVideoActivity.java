@@ -1,4 +1,4 @@
-package com.hld.recordvideo;
+package com.hld.recordlibrary;
 
 import android.media.MediaPlayer;
 import android.os.Bundle;
