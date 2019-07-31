@@ -14,11 +14,13 @@ implementation 'com.github.yuanfen7650:wx_record_video:1.0'//视频录制
 </pre>
 ## 加入权限
 <pre>
+
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
 </pre>
 
 ## 启动
