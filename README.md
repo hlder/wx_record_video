@@ -1,6 +1,10 @@
+# 给个star支持一下
 # wx_record_video
 模仿微信录制小视频<br/>
 使用系统MediaRecorder进行录制
+
+效果预览:https://fir.im/sd36
+
 # 使用方法:
 
 ## 引入
